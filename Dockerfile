@@ -29,7 +29,7 @@ RUN mkdir -p /tmp
 COPY requirements.txt /tmp/requirements.txt
 COPY config/ /opt/wwc/apartment-finder/config
 RUN pip3 install -U pip
-RUN pip install -r /tmp/requirements.txt
+RUN pip install --ignore-installed six -r /tmp/requirements.txt
 
 COPY deployment/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 RUN mkdir -p /opt/wwc

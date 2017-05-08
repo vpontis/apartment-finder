@@ -38,4 +38,5 @@ ADD . /opt/wwc/apartment-finder
 RUN mkdir -p /opt/wwc/logs
 WORKDIR /opt/wwc/apartment-finder
 
-CMD ["/usr/bin/supervisord"]
+# CMD ["/usr/bin/supervisord"]
+CMD ["python3", "main_loop.py"]

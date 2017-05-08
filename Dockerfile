@@ -27,6 +27,7 @@ RUN apt-get update && \
 
 RUN mkdir -p /tmp
 COPY requirements.txt /tmp/requirements.txt
+COPY config/ /opt/wwc/apartment-finder/config
 RUN pip3 install -U pip
 RUN pip install -r /tmp/requirements.txt
 

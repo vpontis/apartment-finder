@@ -64,7 +64,8 @@ TRANSIT_STATIONS = {
 #    "oakland_19th_bart": [37.8118051,-122.2720873],
 }
 
-BEDROOMS = 5
+MIN_BEDROOMS = 5
+MIN_BATHROOMS = 2
 
 ## Search type preferences
 

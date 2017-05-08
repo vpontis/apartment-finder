@@ -53,7 +53,8 @@ def scrape_area(area):
         filters={
             'max_price': settings.MAX_PRICE,
             "min_price": settings.MIN_PRICE,
-            "bedrooms": settings.BEDROOMS,
+            "min_bedrooms": settings.MIN_BEDROOMS,
+            "min_bathrooms": settings.MIN_BATHROOMS,
         })
 
     results = []

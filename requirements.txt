@@ -1,4 +1,5 @@
-python-craigslist>=1.0.3
+git+https://github.com/vpontis/python-craigslist.git@add-min-br-ba
+# python-craigslist>=1.0.3
 sqlalchemy
 python-dateutil
 ipython

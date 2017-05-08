@@ -64,6 +64,8 @@ TRANSIT_STATIONS = {
 #    "oakland_19th_bart": [37.8118051,-122.2720873],
 }
 
+BEDROOMS = 5
+
 ## Search type preferences
 
 # The Craigslist section underneath housing that you want to search in.

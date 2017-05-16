@@ -6,7 +6,7 @@ import os
 MIN_PRICE = 6000
 
 # The maximum rent you want to pay per month.
-MAX_PRICE = 11000
+MAX_PRICE = 14000
 
 ## Location preferences
 
